@@ -107,13 +107,13 @@ int main() {
             incorrectAnswers = aux;
         }
 
+        cout << "Correct: " << correct << endl;
+        cout << "Incorrect: " << incorrect << endl;
+        cout << "No answer: " << noAnswer << endl;
+
     } while (opt > 0 && opt < 3);
 
 
-
-    cout << "Correct: " << correct << endl;
-    cout << "Incorrect: " << incorrect << endl;
-    cout << "No answer: " << noAnswer << endl;
 
     return 0;
 }
